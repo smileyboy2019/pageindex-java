@@ -45,7 +45,8 @@ toc_check_page_num: 20
 max_page_num_each_node: 10
 max_token_num_each_node: 20000
 if_add_node_id: "yes"
-if_add_node_summary: "yes"
+if_add_node_summary: "yes"  # 是否生成节点摘要: "yes" 启用, "no" 禁用
+summary_method: "llm"  # 摘要生成方式: "llm" 使用LLM生成, "hanlp" 使用HanLP生成
 if_add_doc_description: "no"
 if_add_node_text: "no"
 ```
